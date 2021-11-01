@@ -1,0 +1,10 @@
+key_name            = "prod"
+region              = "us-east-2"
+vpc_cidr_block      = "10.0.0.0/16"
+pub_subnet_cidrs    = ["10.0.1.0/24", "10.0.3.0/24"]
+pvt_subnet_cidrs    = ["10.0.2.0/24", "10.0.4.0/24"]
+rds_instance_class  = "db.t2.medium"
+rds_name = "mysql_rds_prod"
+rds_username = "mysql_terraform_prod"
+web_ami = "ami-e0ba5c832331qw"
+web_instance = "x1.large"
